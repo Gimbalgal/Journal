@@ -1,4 +1,4 @@
-.container-fluid {
+/* .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -16,7 +16,7 @@
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+	padding: 40px;
 }
 
 .footer {
@@ -30,6 +30,30 @@
 
 .footer p {
 	margin-top: 25px;
-	font-size: 12px;
+	font-size: 13px;
+    color: #fff;
+} */
+.footer {
+  background-color: #222;
   color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  position: fixed; /* makes it stick to the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100vw; /* makes it span the full width of the browser */
+  box-sizing: border-box;
+  z-index: 1000; /* stays above other elements */
 }
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer a:hover {
+  color: #1da1f2;
+}
+
